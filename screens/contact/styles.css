@@ -16,6 +16,11 @@
 body {
     background-color: #A1CCA5;
     position: relative;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    width: 0;
 }
 
 .svg {
@@ -70,5 +75,80 @@ body {
     color: #F2F2F2;
     text-align: center;
     margin-top: 60px;
-    text-shadow: 5px 5px 0px #415D43;
+}
+
+.subtitle {
+    font-family: 'Quicksand';
+    font-size: 30px;
+    color: #F2F2F2;
+    text-align: center;
+}
+
+.content {
+    width: 60%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #F2F2F2;
+    border-radius: 50px;
+}
+
+form {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-family: 'Quicksand';
+    font-size: 20px;
+    color: #415D43;
+    text-shadow: 5px 5px 0px #F2F2F2;
+    text-align: left;
+    width: 80%;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+input {
+    width: 80%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-family: 'Quicksand';
+    font-size: 20px;
+    background-color: #A1CCA5;
+    margin-bottom: 40px;
+    font-weight: bold;
+    color: #415D43;
+}
+
+textarea {
+    width: 80%;
+    height: 100px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-family: 'Quicksand';
+    font-size: 20px;
+    background-color: #A1CCA5;
+    margin-bottom: 40px;
+}
+
+.vizualizer {
+    background-image: url('../../assets/baking.jpeg');
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100%;
+    border-radius: 0px 50px 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s ease-in-out;
 }
