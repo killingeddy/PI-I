@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'DreamAvenue';
-    src: url('./assets/DreamAvenue.ttf');
+    src: url('../../assets/DreamAvenue.ttf');
 }
 
 @font-face {
     font-family: 'Quicksand';
-    src: url('./assets/Quicksand.ttf');
+    src: url('../../assets/Quicksand.ttf');
 }
 
 * {

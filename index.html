@@ -6,7 +6,7 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Bell Soupie</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
     <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
     <script src='main.js'></script>
 </head>
@@ -26,13 +26,44 @@
             </a>
             <div class="nav">
                 <a class="nav-item" href="./screens/about/index.html">Sobre nós</a>
-                <a class="nav-item" href="./screens/menu/index.html">Menu</a>
-                <a class="nav-item" href="#">Menu</a>
+                <a class="nav-item" href="./screens/sale/index.html">Cardapio</a>
+                <a class="nav-item" href="./screens/menu/index.html">Receitas</a>
                 <a class="nav-item" href="./screens/contact/index.html">Contato</a>
             </div>
         </div>
         <h1 class="title">Bell Soupie</h1>
-    </div>
+        <div id="carousel-container">
+            <input type="radio" name="position" />
+            <input type="radio" name="position" />
+            <input type="radio" name="position" checked />
+            <input type="radio" name="position" />
+            <input type="radio" name="position" />
+            <main id="carousel">
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+            </main>
+        </div>
+        <div class="content">
+            <p class="text">A Bell Soupie é uma confeitaria especializada em fornecer deliciosos e sofisticados doces
+                para seus clientes. Navegue pelo nosso site e encontre uma variedade de opções de produtos, receitas e mais.</p>
+        </div>
+        <div class="redirect">
+            <a href="./screens/menu/index.html">
+                <button class="button">Ver Receitas</button>
+            </a>
+            <a href="./screens/sale/index.html">
+                <button class="button">Ver Cardapio</button>
+            </a>
+            <a href="./screens/about/index.html">
+                <button class="button">Sobre nós</button>
+            </a>
+            <a href="./screens/contact/index.html">
+                <button class="button">Contato</button>
+            </a>
+        </div>
 </body>
 
 </html>
