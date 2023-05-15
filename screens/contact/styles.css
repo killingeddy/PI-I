@@ -126,6 +126,7 @@ input {
     margin-bottom: 40px;
     font-weight: bold;
     color: #415D43;
+    cursor: pointer;
 }
 
 textarea {
