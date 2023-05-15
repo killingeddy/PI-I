@@ -16,6 +16,11 @@
 body {
     background-color: #A1CCA5;
     position: relative;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    width: 0;
 }
 
 .svg {
@@ -71,4 +76,89 @@ body {
     text-align: center;
     margin-top: 60px;
     text-shadow: 5px 5px 0px #415D43;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.item {
+    width: 22%;
+    height: 400px;
+    background-color: #F2F2F2;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+    box-shadow: 5px 5px 0px #415D43;
+    flex-direction: column;
+    margin-inline: 30px;
+    position: relative;
+}
+
+.item img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px #00000050;
+}
+
+.item-title {
+    font-family: 'DreamAvenue';
+    font-size: 30px;
+    color: #415D43;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.item-text {
+    font-family: 'Quicksand';
+    font-size: 15px;
+    color: #415D43;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.item-button {
+    width: 100%;
+    height: 40px;
+    background-color: #A1CCA5;
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    cursor: pointer;
+    border: none;
+    font-family: 'DreamAvenue';
+    font-size: 20px;
+    color: #F2F2F2;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.item a {
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    color: #415D43;
+    font-family: 'Quicksand';
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.item-button:hover {
+    background-color: #415D43;
 }
